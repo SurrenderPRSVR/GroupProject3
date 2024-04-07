@@ -1,0 +1,72 @@
+body {
+    background-color: #dbcbd8;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #df9a57;
+}
+
+#member-form {
+    background-color: #dbcbd8;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+label {
+    color: #555;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.textbox {
+    width: 100%;
+    text-align: center;
+}
+
+#comments {
+    height: 100px;
+}
+
+button {
+    background-color: #e3d888;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #df9a57;
+}
+
+#title {
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        padding: 15px;
+        width: 100%; /* Adjust padding for smaller screens */
+    }
+}
+
